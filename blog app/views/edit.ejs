@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style.css">
+
+</head>
+<body>
+    <%- include("partials/headers") %>
+
+    <form action="/edit/<%= post.id %>" method="post">
+       <input type="text" placeholder="title" name="title" value="<%= post.title %>">
+       <textarea name="content" placeholder="content" required><%= post.content %></textarea>
+       <button type="submit">Update</button>
+    </form>
+    
+    <a href="/">Back</a>
+
+<%- include("partials/footer") %>
+</body>
+</html>

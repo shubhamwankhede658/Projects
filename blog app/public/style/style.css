@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f6fa;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+.main{
+    height:65vh;
+}
+
+/* Navbar */
+.navbar {
+  background: #2f3640;
+  color: white;
+  padding: 15px 0;
+}
+
+.logo {
+  margin: 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Posts */
+.post {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background: #273c75;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background: #2f3640;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+ 
+}
