@@ -1,7 +1,5 @@
  # Projects
 
- # Projects
-
 A collection of web development projects built with HTML, CSS, JavaScript, and Node.js. Each project is self-contained in its own folder.
 
 ---
